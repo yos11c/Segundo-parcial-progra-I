@@ -8,6 +8,12 @@ package javaapplication16;
  *
  * @author Yosmeri C. Cruz
  */
-public class FigurasGeometricas {
+public abstract class FigurasGeometricas {
+    
+    double Base;
+    double Area, AltT, lado, radio ;
+    
+    public abstract void AreaF();
+    
     
 }
