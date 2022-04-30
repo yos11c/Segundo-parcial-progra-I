@@ -17,13 +17,12 @@ public class Principal {
         int op;
         do
         {
-            op = Integer.parseInt(JOptionPane.showInputDialog(null,"CALCULAR EL AREA DE LAS FIGURAS GEOMETRICAS"));
-                  " seleccione una opcion: \n"
-                  " 1. Triangulo\n"
-                  " 2. Cuadrado\n"
-                  " 3. Circulo\n"
-                  " 4. Rectangulo\n"
-                  " 5. Salir"));
+            op = Integer.parseInt(JOptionPane.showInputDialog(null,"CALCULAR EL AREA DE LAS FIGURAS GEOMETRICAS Y SELECCIONE UNA OPCION:\n"
+                 +" 1. Triangulo\n"
+                 + " 2. Cuadrado\n"
+                 + " 3. Circulo\n"
+                 + " 4. Rectangulo\n"
+                 +" 5. Salir"));
                 
             switch (op)
             {
